@@ -19,7 +19,7 @@ export default function Setup() {
     try {
       const res = await api.setupAdmin(form);
       if (res.success) {
-        navigate('/login');
+        window.location.href = '/login';
       } else {
         setError(res.error || 'Setup failed');
       }

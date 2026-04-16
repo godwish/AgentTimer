@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   agent-timer:
     build: .
@@ -13,3 +11,11 @@ services:
       - NODE_ENV=production
       - PORT=3000
       - DB_PATH=/app/data/timer.sqlite
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  data:

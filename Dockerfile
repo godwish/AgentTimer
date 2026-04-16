@@ -1,5 +1,5 @@
 # Stage 1: Build the client
-FROM node:20-slim as builder
+FROM node:20-slim AS builder
 
 WORKDIR /app/client
 COPY client/package*.json ./
