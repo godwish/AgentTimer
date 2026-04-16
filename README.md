@@ -1,3 +1,9 @@
+<img width="1207" height="1322" alt="Image" src="https://github.com/user-attachments/assets/6cfc467f-fa75-4721-b2c2-e11421f17313" />
+
+<img width="574" height="652" alt="Image" src="https://github.com/user-attachments/assets/3014de29-2b48-47c3-aed8-f8d81c87cf99" />
+
+<img width="613" height="711" alt="Image" src="https://github.com/user-attachments/assets/2aad30ea-a37e-44cb-a4bb-9993ca8f3cf5" />
+
 # AgentTimer
 
 AgentTimer is a lightweight, localized web application designed for tracking and managing personal agent usage limits and cooldowns. It focuses on providing a clean UI for solitary managers with seamless language switching and secure administrative access.
